@@ -1,0 +1,17 @@
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 30px;
+    font-size: 17px;
+    color: rgb(7, 50, 76);
+    background-color: rgb(235, 203, 166);
+}
+
+li {
+    display: inline-block;
+    width: 112px;
+    margin-left: 3px;
+    border-left: solid 2px black;
+    padding-left: 9px;
+}
