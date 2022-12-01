@@ -1,4 +1,4 @@
-nav ul {
+div nav  {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -8,10 +8,27 @@ nav ul {
     background-color: rgb(235, 203, 166);
 }
 
-li {
+a {
     display: inline-block;
     width: 112px;
     margin-left: 3px;
     border-left: solid 2px black;
     padding-left: 9px;
+}
+
+
+
+.central {
+    padding: 48px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.text-initial {
+    color: black;
+    text-align: center;
+    padding: 103px;
+    margin-top: 110px;
+    font-size: 21px;
 }
