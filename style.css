@@ -19,16 +19,37 @@ a {
 
 
 .central {
+    height: 565px;
     padding: 48px;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+}
+
+.central h1 {
+    text-align: center;
+    font-size: 60px;
 }
 
 .text-initial {
     color: black;
     text-align: center;
     padding: 103px;
-    margin-top: 110px;
     font-size: 21px;
+}
+
+.middle-main {
+    display: flex;
+}
+
+.container-one {
+    background-color: rgb(60, 98, 75);
+    color: white;
+    padding: 50px;
+
+}
+
+.container-one p {
+    margin-left: 50px;
 }
