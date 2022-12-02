@@ -1,21 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
 div nav  {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     width: 100%;
-    padding: 30px;
+    padding: 38px;
     font-size: 17px;
     color: rgb(7, 50, 76);
-    background-color: rgb(235, 203, 166);
+    background-color: rgb(182, 182, 182);
 }
 
 a {
+    text-decoration: none;
+    text-align: center;
     display: inline-block;
     width: 112px;
     margin-left: 3px;
     border-left: solid 2px black;
-    padding-left: 9px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
+
+
+a:hover {
+    background-color: rgb(146, 37, 0);
+    color: white;
+}
 
 
 .central {
@@ -29,7 +48,15 @@ a {
 
 .central h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 70px;
+}
+
+.central iframe {
+    margin-top: 17px;
+}
+
+.central div:first-child {
+    margin-top: 36px;
 }
 
 .text-initial {
