@@ -2,18 +2,37 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f3f3f3;
 }
 
+#logo {
+    width: 200px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 43px;
+    margin-left: 80px;
+}
+
+#logo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 40%;
+}
+
+#nav-link {
+    background-color: #8d8d8d;
+}
 
 div nav  {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     padding: 38px;
     font-size: 17px;
     color: rgb(7, 50, 76);
     background-color: #8d8d8d;
 }
+
 
 a {
     text-decoration: none;
@@ -33,9 +52,19 @@ a {
 
 
 a:hover {
-    background-color: rgb(146, 37, 0);
+    background-color: #ec1313;
     color: white;
 }
+
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Helvetica, sans-serif;
+    padding: 10px 170px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
 
 #main {
     display: flex;
@@ -87,6 +116,7 @@ a:hover {
 
 .container-one p {
     margin-left: 50px;
+    background-color: #3c624b;
 }
 
 .img-multi {
@@ -109,8 +139,74 @@ a:hover {
 }
 
 #tribute-info {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
+    padding: 30px;
+
 }
+
+#tribute-info p {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 19px;
+    padding: 8px 170px;
+    word-spacing: 5px;
+    line-height: 35px;
+}
+
+.div-img-cover {
+    width: 100%;
+    margin-bottom: 117px;
+}
+
+.div-img-cover img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 -18px;
+}
+
+.life {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    word-spacing: 5px;
+    line-height: 35px;
+    margin-bottom: 150px;
+}
+
+.life ul {
+    margin: 10px 50px;
+    padding: 0 100px;
+}
+
+.life ul li {
+    margin-bottom: 10px;
+}
+
+.life h2 {
+    padding: 0 130px;
+    font-size: 35px;
+}
+
+.section-mma {
+    display: flex;
+    width: 100%;
+}
+
+.section-mma img {
+    width: 50%;
+    height: 400px;
+    object-fit: contain;
+    object-position: 0 -18px;
+}
+
+.section-mma h2 {
+    padding: 0 50px;
+    font-size: 87px;
+    font-weight: 900;
+    width: 50%;
+    line-height: 87px;
+}
+
 
 #img-div {
     display: flex;
