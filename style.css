@@ -197,6 +197,7 @@ h2 {
     height: 400px;
     object-fit: contain;
     object-position: 0 -18px;
+    padding: 30px;
 }
 
 .section-mma h2 {
