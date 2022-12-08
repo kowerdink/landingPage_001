@@ -252,7 +252,16 @@ h2 {
     text-transform: uppercase;
 }
 
-
+.rip2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 35px;
+    text-transform: uppercase;
+}
 
 #img-div {
     display: flex;
