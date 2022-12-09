@@ -254,13 +254,24 @@ h2 {
 
 .rip2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     font-family: Helvetica, sans-serif;
     font-size: 20px;
     margin: 35px;
     text-transform: uppercase;
+}
+
+.rip2 img {
+    width: 117px;
+    height: auto;
+    margin: 24px;
+    mix-blend-mode: multiply;
+}
+
+.rip2 p {
+    text-transform: capitalize;
 }
 
 #img-div {
@@ -268,9 +279,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 30px 10px;
     padding: 30px;
-
 }
 
 #image {
